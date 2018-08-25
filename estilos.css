@@ -1,0 +1,29 @@
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+.w3-bar{width:100%;overflow:hidden}
+.w3-theme-d2 {color:#fff !important; background-color:#000000 !important}
+.w3-left-align{text-align:left!important} .w3-right-align{text-align:right!important}
+.w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;}
+.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-hide-medium{display:none!important}
+.w3-hide-large{display:none!important}
+.w3-right-align{text-align:right!important}
+.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.w3-hide-small{display:none!important}
+.w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+.w3-display-container{position:relative}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-margin-bottom{margin-bottom:16px!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+.w3-theme {color:#fff !important; background-color:#000000 !important}
+.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-center{text-align:center!important}
+.w3-circle{border-radius:50%}
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+.w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
+.w3-bar .w3-button{white-space:normal}
+.w3-quarter{float:left;width:100%}
+.w3-quarter{width:24.99999%}
