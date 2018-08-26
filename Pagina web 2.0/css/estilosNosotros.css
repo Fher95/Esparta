@@ -1,0 +1,67 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.imagenFondo{
+    height: 100vh;
+	width: 100vw;
+    position: fixed;
+	top: 0px;
+	left: 0;
+	background: #fff;
+    z-index: -1;
+    opacity: .20;
+}
+
+.imagenPrincipal{
+    height: 100%;
+	width: 100%;
+    position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.redondearImagen{
+	height: 350px;
+	width: 350px;
+	border-radius : .5%;
+}
+
+.presentacionIntegrante{
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    margin:auto;
+    left: 50px;
+    width: 80%;
+    margin-bottom: 400px;
+}
+
+.datosPersonales{
+    display: flex;
+    margin-bottom: 50px;
+    color:#000;
+}
+.datosPersonales div{
+    padding: 10%;
+    text-align: center;
+}
+
+.datosLibro{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.datosLibro div{
+    padding: 10%;
+    text-align: center;
+}
+
+.videoPersonal{
+    display: flex;
+    justify-content: center;
+}
