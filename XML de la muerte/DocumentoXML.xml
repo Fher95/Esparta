@@ -1,0 +1,63 @@
+<!--
+Tribu Esparta:
+	-Camilo Forero
+	-Daniel Fernando Gomez
+	-Luis Fernando Gomez
+	-Natalia Orozco
+	-Daniel Bravo
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<Ciudad nombre="Pachucolandia" tipoMoneda="Pachudolares">
+	<Habitantes>
+		<Persona nombre="Wachiberto" numExtremidades="12">
+			<Extremidades superiores="8" inferiores="4"/>
+			<Profesion>Cargador de Estiércol</Profesion>
+			<Empleo>Contador Publico</Empleo>
+			<Outfit>
+				<Camisa color="azul"/>
+				<Pantalon color="gris"/>
+			</Outfit>
+			<Hobbie>Bailar merengue</Hobbie>
+			<Pertenencias>
+				<Carro color="azul" referencia="Ford GT"></Carro>
+				<Casa direccion="Calle 11#4-28"/>
+			</Pertenencias>
+			<ListaCompras>
+				<Producto nombre="Sandilulolandia" precio="15" fechaCaducidad="1997-12-09"/>
+				<Producto nombre="Pachuleche" precio="500" fechaCaducidad="1997-12-10"/>
+				<Producto nombre="Huevochutruz" precio="250" fechaCaducidad="1997-12-11"/>
+				<Producto nombre="Panchuchanduish" precio="150" fechaCaducidad="1997-09-27"/>
+			</ListaCompras>
+		</Persona>
+		<Cita>
+			<Hora>08:00:00</Hora>
+			<Persona>Wachiberto</Persona>
+			<Persona>Wachiberta</Persona>
+			<Actividad>Cine</Actividad>
+			<Actividad>Comer</Actividad>
+			<Actividad>Patinaje en hielo</Actividad>
+			<Actividad>Filosofar sobre la vida</Actividad>
+			<Actividad>Baila merengue</Actividad>
+			<Actividad>Entrar por una tacita de café ( ͡° ͜ʖ ͡°)</Actividad>
+		</Cita>
+	</Habitantes>
+	<Empresa nombre="PachucolandiaSA" direccion="Calle 11#4-29">
+		<Presupuesto>100000</Presupuesto>
+		<Empleado>
+			<Extremidades superiores="8" inferiores="4"/>
+			<Profesion>Cargador de Estiércol</Profesion>
+			<Cargo>Gerente</Cargo>
+			<Outfit>
+				<Camisa color="azul"/>
+				<Pantalon color="gris"/>
+			</Outfit>
+			<Hobbie>Bailar merengue</Hobbie>
+			<Pertenencias>
+				<Carro color="azul" referencia="Ford GT"></Carro>
+				<Casa direccion="Calle 11#4-28"/>
+			</Pertenencias>
+		</Empleado>
+	</Empresa>
+</Ciudad>

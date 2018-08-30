@@ -1,0 +1,158 @@
+<!--
+Tribu Esparta:
+	-Camilo Forero
+	-Daniel Fernando Gomez
+	-Luis Fernando Gomez
+	-Natalia Orozco
+	-Daniel Bravo
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Ciudad">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Habitantes">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Persona">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Extremidades">
+										<xs:complexType>
+											<xs:attribute name="superiores" type="xs:integer"/>
+											<xs:attribute name="inferiores" type="xs:integer"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="Profesion" type="xs:string"/>									
+									<xs:element name="Empleo" type="xs:string"/>
+									
+									<xs:element name="Outfit">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Camisa">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>					
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="Pantalon">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>					
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+
+									</xs:element>
+									<xs:element name="Hobbie" type="xs:string"/>									
+									<xs:element name="Pertenencias">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Carro">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>
+														<xs:attribute name="referencia" type="xs:string"/>
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="Casa">
+													<xs:complexType>
+														<xs:attribute name="direccion" type="xs:string"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ListaCompras">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Producto" minOccurs="0" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:attribute name="nombre" type="xs:string"/>
+														<xs:attribute name="precio" type="xs:decimal"/>
+														<xs:attribute name="fechaCaducidad" type="xs:date"/>		
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attribute name="nombre" type="xs:string"/>
+								<xs:attribute name="numExtremidades" type="xs:integer"/>
+							</xs:complexType>
+						</xs:element>		
+						<xs:element name="Cita">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Hora" type="xs:time"/>
+										<xs:element name="Persona" type="xs:string" minOccurs="0" maxOccurs="2"/>
+										<xs:element name="Actividad" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>		
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name = "Empresa">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name = "Presupuesto" type="xs:decimal"/>
+						<xs:element name = "Empleado">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Extremidades">
+										<xs:complexType>
+											<xs:attribute name="superiores" type="xs:integer"/>
+											<xs:attribute name="inferiores" type="xs:integer"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="Profesion" type="xs:string"/>									
+									<xs:element name="Cargo" type="xs:string"/>
+									
+									<xs:element name="Outfit">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Camisa">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>					
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="Pantalon">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>					
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="Hobbie" type="xs:string"/>									
+									<xs:element name="Pertenencias">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Carro">
+													<xs:complexType>
+														<xs:attribute name="color" type="xs:string"/>
+														<xs:attribute name="referencia" type="xs:string"/>					
+													</xs:complexType>
+												</xs:element>
+												<xs:element name="Casa">
+													<xs:complexType>
+														<xs:attribute name="direccion" type="xs:string"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>	
+						</xs:element>	
+					</xs:sequence>
+					<xs:attribute name="nombre" type="xs:string"/>
+					<xs:attribute name="direccion" type="xs:string"/>
+				</xs:complexType>	
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="nombre" type="xs:string"/>
+		<xs:attribute name="tipoMoneda" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+</xs:schema>
