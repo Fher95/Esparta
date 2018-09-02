@@ -87,7 +87,14 @@ header .btn-menu{
 	right:20px;
 	top: 300px;
 }
-
+.caption-main h2{
+	position: absolute;
+	text-align: right;
+	font-size: 70px;
+	color:#c6961d;
+	right:100px;
+	top: 10px;
+}
 .seccion1 .slider{
 	width: 50%;
 	margin: auto;
