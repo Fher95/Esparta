@@ -102,15 +102,26 @@ textarea {
     border: 1px solid #999;
 }
 button {
-	font: 1em sans-serif;
- 	padding: 15px 20px; 
+    font-family: 'letraHome';
+    border-radius:4px;
+    font-size:15px;
+    margin:10px;
+    color:#fff!important;
+    display:inline-block;
+    padding:10px 30px 10px 30px;
+    background:#efd542;
+    box-shadow:0 15px 20px -10px rgba(0, 0, 0, 0), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2), inset 0 -16px 25px 0 #b39b32;
+    transition:all .3s ease-in-out
 }
-.imgContacto { 
-  	background: url(../img/imgForm.jpg) no-repeat center center fixed;
-        background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-	
-
+button:hover {
+    text-decoration:none;
+    box-shadow:0 0 0 0 rgba(0, 0, 0, 0), inset 0 -1px 0 0 rgba(0, 0, 0, 0.1), inset 0 10px 15px 5px #c3b537;
+    color:#fff!important
+}
+button:active {
+    box-shadow:0 0 0 0 rgba(0, 0, 0, 0.2), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2), inset 0 50px 25px 10px #8b7b22;
+    color:#333!important;
+    position:relative;
+    top:1px;     
+    transition:all .1s ease-in-out
 }
